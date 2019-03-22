@@ -1,1 +1,24 @@
+Test Case ID: CCH-1
+Test Case Version: 1.0
+Description: Determine that vending machine dispenses chosen beverage.
+Pre-Reqs: Functioning vending machine, combination of small bills and change.
+Priority: Low
 
+Steps to Execute:
+1. Stand facing the vending machine.
+2. If the selections can be seen, visually identify your beverage of choice.
+3. If the selections are unseen, identify your selection by it's corresponding button on the machine.
+4. Once your selection is made, determine the amount of money needed by observing the price under your selection or 
+    on the corresponding button.
+5. Remove money from pocket and gather the amount required to purchase your selection.
+6. Insert money into the machine via the cash receiver for small bills and/or the coin slot for coins.
+7. If the machine has a digital screen, observe the screen to see if the correct amount of money has been added for your selection.
+    If there is no screen, continue to step 8.
+8. Once the money has been inserted, make your selection by using the number pad provided, the letter first then the number. 
+    If there is no number pad, press the corresponding button for your selection.
+    *NOTE* If you make a selection and nothing happens, verify step 5 and repeat step 6, if needed.
+9. Observe the catch to ensure that a beverage has been dispensed.
+
+Expected Result: Upon observing the catch, the beverage should be the one selected by the user.
+Actual Result: N/A
+Pass/Fail: N/A
