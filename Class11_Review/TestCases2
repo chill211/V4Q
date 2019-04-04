@@ -1,1 +1,130 @@
+Editing an employee record
 
+Test Case ID: TCR-6
+Test Case Version: 1.0
+Description: Locate employee record by name search.
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Low
+
+Steps to Execute:
+*NOTE*: Execute steps 1 - 4 from TCR-1 in the TestCases1 file before beginning this test.
+
+1. Under the PIM tab, select Employee List.
+2. Once the Employee Information page is displayed, select the Employee Name field and enter the employee's first and
+   last name. 
+
+*NOTE*: Based on the employee, the Employee Name field may generate hints to specific employees based on what you enter.
+        If the employee you want comes up in the hints, you can select their name to autofill the Employee Name field.
+        
+3. Leaving all other fields blank, locate and click the Search button.
+
+Expected Result: A link to the employee's record should appear at the bottom of the page. The link should include first and 
+                 last name (middle name, if provided) and their Employee ID.
+                 
+Actual Result: N/A
+Pass/Fail: N/A
+        
+Test Case ID: TCR-7
+Test Case Version: 1.0
+Description: Change employee's last name.
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Low
+
+Steps to Execute:
+*NOTE*: Execute steps 1 - 4 from TCR-1 in the TestCases1 file before beginning this test.
+*NOTE*: Execute TCR-6 in the TestCases2 file before beginning this test.
+
+1. Once the name search has been completed, verify that the link displayed is for the employee requested.
+2. Click on the link and you should be directed to the employee's Personal Details page.
+3. Locate and click the green Edit button. All greyed out fields should turn white, allowing for changes to be made.
+4. Select the Last Name field and delete the current last name.
+   *NOTE*: The Last Name field will have a red ring around it and the word REQUIRED below it until you provide a new entry.
+5. Add the new last name. The red ring and the word REQUIRED should disappear.
+6. Locate and click the green Save button.
+
+Expected Result: Once the Save is complete, you should see a green banner reading SUCCESFULLY SAVED temporarily displayed 
+                 just below the Personal Details header. All fields should be grey again, including the one you edited and the
+                 new last name should be present.
+                 
+Actual Result: N/A
+Pass/Fail: N/A
+
+Test Case ID: TCR-8
+Test Case Version: 1.0
+Description: Add employee's birthday manually.
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Low
+
+Steps to Execute:
+*NOTE*: Execute steps 1 - 4 from TCR-1 in the TestCases1 file before beginning this test.
+*NOTE*: Execute TCR-6 in the TestCases2 file before beginning this test.
+*NOTE*: Execute steps 1 and 2 from TCR-7 in the TestCases2 file before beginning this test.
+
+1. Once on your employee's Personal Details page, locate and click the green Edit button. All greyed out fields should turn 
+   white, allowing for changes.
+2. Locate the Date of Birth field at the bottom of the page, to the right of the Nationality field.
+3. Clicking inside the field, enter the employee's birthday with the format provided (year, month, day) (ex. 1970-12-06)
+   *NOTE* Text inside the field will turn red and remain so until a valid date is provided.
+4. Locate and click the green Save button.
+
+Expected Result: Once the Save is complete, you should see a green banner reading SUCCESFULLY SAVED temporarily displayed 
+                 just below the Personal Details header. All fields should be grey again, including the one you edited and the 
+                 new birthday should be present.
+                 
+Actual Result: N/A
+Pass/Fail: N/A  
+        
+Test Case ID: TCR-9
+Test Case Version: 1.0
+Description: Add or change employee's nationality.
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Low
+
+Steps to Execute:
+*NOTE*: Execute steps 1 - 4 from TCR-1 in the TestCases1 file before beginning this test.
+*NOTE*: Execute TCR-6 in the TestCases2 file before beginning this test.
+*NOTE*: Execute steps 1 and 2 from TCR-7 in the TestCases2 file before beginning this test.
+
+1. Once on your employee's Personal Details page, locate and click the green Edit button. All greyed out fields should turn 
+   white, allowing for changes.
+2. At the bottom of the page, locate the Nationality field, to the left of the Date of Birth field.
+3. Click inside the field or on the arrow to the right of the field. This should produce a menu of countries to choose from.
+   *NOTE*: Once the menu of countries comes up, you can scroll through to find a country or type the first letter of the country
+           you're looking for to go to those countries in the menu that begin with that letter.
+4. Select the appropriate country for your employee. The menu of countries should collapse, leaving your selection 
+   in the field.
+5. Locate and click the green Save button.   
+
+Expected Result: Once the Save is complete, you should see a green banner reading SUCCESFULLY SAVED temporarily displayed 
+                 just below the Personal Details header. All fields should be grey again, including the one you edited and the 
+                 new nationality should be present.
+                 
+Actual Result: N/A
+Pass/Fail: N/A  
+
+Test Case ID: TCR-10
+Test Case Version: 1.0
+Description: Edit employee's first name to read as a string of numbers.
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Low
+
+Steps to Execute:
+*NOTE*: Execute steps 1 - 4 from TCR-1 in the TestCases1 file before beginning this test.
+*NOTE*: Execute TCR-6 in the TestCases2 file before beginning this test.
+*NOTE*: Execute steps 1 and 2 from TCR-7 in the TestCases2 file before beginning this test.
+
+1. Once on your employee's Personal Details page, locate and click the green Edit button. All greyed out fields should turn 
+   white, allowing for changes.
+2. Click inside the First Name field and remove the current first name.
+   *NOTE*: The border of the First Name field will turn red and the word REQUIRED will appear below it until a valid entry
+           is made.
+3. Once the field is empty, add any string of numbers to fill the field. There is a limit to the number of characters
+   you can input.
+4. Locate and click the green Save button.
+
+Expected Result: Once the Save is complete, you should see a green banner reading SUCCESFULLY SAVED temporarily displayed 
+                 just below the Personal Details header. All fields should be grey again, including the one you edited with 
+                 a string of numbers in the First Name field.
+
+Actual Result: N/A
+Pass/Fail: N/A   
