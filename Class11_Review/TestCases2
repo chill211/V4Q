@@ -14,7 +14,7 @@ Steps to Execute:
    last name. 
 
 *NOTE*: Based on the employee, the Employee Name field may generate hints to specific employees based on what you enter.
-        If the employee you want comes up in the hints, you can select their name to autofill the Employee Name field.
+        If the employee you want comes up in the hints, you can select their name to auto-fill the Employee Name field.
         
 3. Leaving all other fields blank, locate and click the Search button.
 
@@ -42,7 +42,7 @@ Steps to Execute:
 5. Add the new last name. The red ring and the word REQUIRED should disappear.
 6. Locate and click the green Save button.
 
-Expected Result: Once the Save is complete, you should see a green banner reading SUCCESFULLY SAVED temporarily displayed 
+Expected Result: Once the Save is complete, you should see a green banner reading SUCCESSFULLY SAVED temporarily displayed 
                  just below the Personal Details header. All fields should be grey again, including the one you edited and the
                  new last name should be present.
                  
@@ -67,7 +67,7 @@ Steps to Execute:
    *NOTE* Text inside the field will turn red and remain so until a valid date is provided.
 4. Locate and click the green Save button.
 
-Expected Result: Once the Save is complete, you should see a green banner reading SUCCESFULLY SAVED temporarily displayed 
+Expected Result: Once the Save is complete, you should see a green banner reading SUCCESSFULLY SAVED temporarily displayed 
                  just below the Personal Details header. All fields should be grey again, including the one you edited and the 
                  new birthday should be present.
                  
@@ -95,7 +95,7 @@ Steps to Execute:
    in the field.
 5. Locate and click the green Save button.   
 
-Expected Result: Once the Save is complete, you should see a green banner reading SUCCESFULLY SAVED temporarily displayed 
+Expected Result: Once the Save is complete, you should see a green banner reading SUCCESSFULLY SAVED temporarily displayed 
                  just below the Personal Details header. All fields should be grey again, including the one you edited and the 
                  new nationality should be present.
                  
@@ -122,7 +122,7 @@ Steps to Execute:
    you can input.
 4. Locate and click the green Save button.
 
-Expected Result: Once the Save is complete, you should see a green banner reading SUCCESFULLY SAVED temporarily displayed 
+Expected Result: Once the Save is complete, you should see a green banner reading SUCCESSFULLY SAVED temporarily displayed 
                  just below the Personal Details header. All fields should be grey again, including the one you edited with 
                  a string of numbers in the First Name field.
 
