@@ -1,0 +1,105 @@
+Add employee under the PIM tab.
+
+Test Case ID: TCR-1
+Test Case Version: 1.0
+Description: Add employee by first and last name
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Medium
+
+Steps to Execute:
+1. Facing your computer, launch the web browser of your choice. (ex. Chrome)
+2. Using the address bar, navigate to the OrangeHRM website.
+3. At the OrangeHRM login page, enter Admin Login Credentials (username and password) and hit enter.
+4. At the OrangeHRM homepage, select the PIM tab.
+5. Under the PIM tab, select Add Employee.
+6. On the Add Employee page, select the First Name field and enter employee's first name.
+7. Select the Last Name field and enter employee's last name.
+8. Below the name fields, verify that the OrangeHRM website has populated an Employee ID for your new employee.
+9. At bottom of the Add Employee page, click the Save button.
+
+Expected Result: The new employee's Personal Details page should be displayed under the Employee List tab. First and
+                 last name should be present as well as the employee ID.
+
+Actual Result: N/A
+Pass/Fail: N/A
+
+Test Case ID: TCR-2
+Test Case Version: 1.0
+Description: Add employee by first name only
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Medium
+
+Steps to Execute:
+*NOTE*: Execute steps 1 - 5 from TCR-1 before beginning this test.
+
+1. On the Add Employee page, select the First Name field and enter employee's first name.
+2. Verify that the Last Name field is blank.
+3. Verify that the OrangeHRM website has populated an Employee ID for your new employee.
+4. At bottom of the Add Employee page, click the Save button.
+
+Expected Result: The page should fail to save. A red box should appear around the Last Name field and the word
+                 REQUIRED should appear in red under the Last Name field.
+                 
+Actual Result: N/A
+Pass/Fail: N/A
+
+Test Case ID: TCR-3
+Test Case Version: 1.0
+Description: Add employee by last name only
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Medium
+
+Steps to Execute:
+*NOTE*: Execute steps 1 - 5 from TCR-1 before beginning this test.
+
+1. On the Add Employee page, select the Last Name field and enter employee's last name.
+2. Verify that the First Name field is blank.
+3. Verify that the OrangeHRM website has populated an Employee ID for your new employee.
+4. At bottom of the Add Employee page, click the Save button.
+
+Expected Result: The page should fail to save. A red box should appear around the First Name field and the word
+                 REQUIRED should appear in red under the First Name field.
+                 
+Actual Result: N/A
+Pass/Fail: N/A
+
+Test Case ID: TCR-4
+Test Case Version: 1.0
+Description: Add employee by middle name only
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Medium
+
+Steps to Execute:
+*NOTE*: Execute steps 1 - 5 from TCR-1 before beginning this test.
+
+1. On the Add Employee page, select the Middle Name field and enter employee's middle name.
+2. Verify that the First Name field is blank.
+3. Verify that the Last Name field is blank.
+4. Verify that the OrangeHRM website has populated an Employee ID for your new employee.
+5. At bottom of the Add Employee page, click the Save button.
+
+Expected Result: The page should fail to save. A red box should appear around the First Name field and the Last Name field and 
+                 the word REQUIRED should appear in red under the First Name and Last Name field.
+                 
+Actual Result: N/A
+Pass/Fail: N/A
+
+Test Case ID: TCR-5
+Test Case Version: 1.0
+Description: Add employee without employee ID
+Pre-Reqs: Computer, Internet Access, Admin Login Credentials for OrangeHRM website, employee personal information
+Priority: Medium
+
+Steps to Execute:
+*NOTE*: Execute steps 1 - 5 from TCR-1 before beginning this test.
+
+1. On the Add Employee page, select the First Name field and enter employee's first name.
+2. Select the Last Name field and enter employee's last name.
+3. Below the name fields, remove the number from the Employee ID field and leave it blank.
+4. At bottom of the Add Employee page, click the Save button.
+
+Expected Result: The new employee's Personal Details page should be displayed under the Employee List tab. First and
+                 last name should be present. All other fields, including the Employee ID field, should be empty.
+
+Actual Result: N/A
+Pass/Fail: N/A
